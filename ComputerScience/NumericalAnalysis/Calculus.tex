@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{amsmath}
+\newtheorem{theorem}{Theorem}
+\usepackage{comment}
+\title{Programming and Calculus}
+\date{TBD}
+
+\begin{document}
+    \maketitle
+    \section{Motivation}
+    Here are a few motivating examples for our discussions.
+    \subsection{Intermediate Value Theorem}
+    Recall the statement of the Intermediate Value Theorem:
+        \begin{theorem}[IVT, root form]
+            Let $f$ be a continuous function on $[a,b]$, with 
+            \[f(a)<0<f(b).\]
+            Then, there is a real number $c$ such that:
+            \[f(c)=0\quad\quad a<c<b\]
+        \end{theorem} 
+    \subsubection{Calculating \sqrt{2}}
+    Let's try to find a root for
+    \[f(x)=x^2 - 2\]
+    on the interval $[1,2]$. We know that $x=\sqrt{2}$ solves the equation on this interval. 
+    Let's, for reference, see how close $f(1)$ and $f(2)$ are to 0:
+    \begin{figure}
+        \centering
+        \begin{comment}
+            \begin{tikzpicture}
+                \draw[thick,<->] 
+            \end{tikzpiture}
+        \end{comment}
+        \caption{Closeness}
+    \end{figure}   
+    Let's try halfway between 1 and 2:
+    \[\dfrac{1+2}{2}=1.5\to f(1.5)=\]
+\end{document}
